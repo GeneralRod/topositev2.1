@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/topositev2.1/',
+  build: {
+    outDir: 'docs'
+  }
 })
